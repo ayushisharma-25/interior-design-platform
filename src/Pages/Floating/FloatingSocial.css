@@ -1,0 +1,131 @@
+.fab-container {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 999;
+}
+
+.main-btn {
+  width: 60px;
+  height: 60px;
+  background: orange;
+  border-radius: 50%;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(255, 165, 0, 0.6);
+  transition: 0.3s ease;
+}
+
+.main-btn span {
+  position: absolute;
+  background: black;
+  width: 22px;
+  height: 2.5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease;
+}
+
+.main-btn span:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.main-btn:hover {
+  transform: scale(1.08);
+}
+
+.main-btn.active span:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(0deg);
+  opacity: 0;
+}
+
+.main-btn.active {
+  transform: rotate(360deg);
+}
+
+.fab-social-icons {
+  position: absolute;
+  bottom: 70px;
+  margin-right: 8px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+.fab-social-icons a {
+  width: 45px;
+  height: 45px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.fab-social-icons a:hover {
+  background: white;
+}
+
+.whatsapp:hover {
+  color: #25D366;
+  border: 2px solid #25D366;
+}
+
+.instagram:hover {
+  color: #E1306C;
+  border:2px solid #E1306C;
+}
+
+.email:hover {
+  color: #333;
+  border:2px solid #333;
+}
+
+.whatsapp {
+  background: #25D366;
+}
+
+.instagram {
+  background: #E1306C;
+}
+
+.email {
+  background: #333;
+}
+
+.fab-social-icons.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.fab-social-icons a {
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.fab-social-icons.show a {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fab-social-icons.show a:nth-child(1) {
+  transition-delay: 0.1s;
+}
+
+.fab-social-icons.show a:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+.fab-social-icons.show a:nth-child(3) {
+  transition-delay: 0.3s;
+}

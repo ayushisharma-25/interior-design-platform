@@ -1,0 +1,222 @@
+.portfolio-section {
+    background: #03033e;
+    padding: 80px 0;
+    color: white;
+}
+
+.portfolio-small {
+    text-align: center;
+    color: #d4a017;
+    letter-spacing: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.portfolio-title {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    color: #d4a017;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 10px;
+}
+
+.portfolio-desc {
+    text-align: center;
+    color: #d9d9d9;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.portfolio-card {
+    position: relative;
+    border-radius: 28px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid rgb(255 185 0 / 40%);
+    transition: 0.4s ease;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.portfolio-card img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+.portfolio-card:hover img {
+    transform: scale(1.08);
+}
+
+.portfolio-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top,
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.1));
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-count {
+    background: rgba(255, 255, 255, 0.15);
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #d4a017;
+    font-weight: 600;
+}
+
+.portfolio-content h3 {
+    font-size: 42px;
+    color: orange;
+    text-align: left;
+    margin: 12px 0 5px;
+    font-family: "Playfair Display", serif;
+}
+
+.portfolio-content p {
+    color: #d4d4d4;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.portfolio-content button {
+    background: transparent;
+    border: none;
+    color: #d4a017;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.pf-icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d4a017;
+    font-size: 18px;
+}
+
+.portfolio-stats {
+    margin-top: 50px;
+    border: 2px solid rgb(255 185 0 / 40%);
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px 10px;
+}
+
+.portfolio-stats1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 10px 20px;
+    border-right: 1px solid rgb(218 182 87 / 40%);
+}
+
+.portfolio-stats2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 10px 20px;
+}
+
+.portfolio-stats1:last-child {
+    border-right: none;
+}
+
+.portfolio-stats h3 {
+    font-size: 34px;
+    text-align: left;
+    color: #d4a017;
+    margin: 0;
+    line-height: 1;
+}
+
+.portfolio-stats p {
+    color: #d4d4d4;
+    margin: 6px 0 0;
+    text-align: left;
+    font-size: 14px;
+}
+
+.portfolio-top {
+    text-align: center;
+}
+
+.portfolio-line-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 12px;
+}
+
+.line1 {
+    width: 90px;
+    height: 1px;
+    background: rgba(212, 160, 23, 0.5);
+}
+
+.portfolio-line-wrapper i {
+    color: #d4a017;
+    font-size: 14px;
+}
+
+.desc-line {
+    width: 70px;
+    height: 2px;
+    background: rgba(212, 160, 23, 0.5);
+    margin: 20px auto 50px;
+    margin-top: -40px;
+}
+
+.portfolio-stats1 i {
+    font-size: 45px;
+    color: #d4a017;
+    flex-shrink: 0;
+}
+
+.portfolio-stats2 i {
+    font-size: 45px;
+    color: #d4a017;
+    flex-shrink: 0;
+}
+
+@media (max-width: 992px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .portfolio-title {
+        font-size: 50px;
+    }
+}

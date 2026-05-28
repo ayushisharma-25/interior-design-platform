@@ -1,0 +1,200 @@
+.company{
+    display: flex;
+    margin-top: 50px;
+    padding: 80px 60px;
+    background-color:#03033e ;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+.co-img img{
+    border-radius: 30px;
+    margin-left: 30px;
+    border: 3px solid white;
+}
+.co-about h2{
+    color: orange;
+    font-size: 60px;
+    text-align: left;
+    padding-left: 70px;
+}
+.co-about p{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 30px;
+    line-height: 1.6;
+}
+.about-hero{    
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}
+.more{
+    /* background-color: #03033e; */
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    /* border-radius: 30px; */
+    /* border: 2px solid white; */
+    /* border-left: 2px solid white;
+    border-right: 2px solid white; */
+
+}
+.ghar{
+    display: flex;
+    /* margin-top: -30px;
+    margin-left: -13px; */
+}
+.ghar img {
+    border: 2px solid white;
+    margin-left: 15px;
+} 
+.forest1 h2{
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    padding: 85px;
+}
+.forest1 span{
+    color: black;
+}
+.forest2 p{
+    text-align: left;
+    color: black;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: left;
+    font-weight: 500;
+}
+.forest2 span{
+    font-weight: bold;
+}
+.experience{
+    background-color: blanchedalmond;
+}
+.experience h2{
+    color: black;
+    font-size:50px ;
+    margin-bottom: 80px;
+    font-weight: bold;
+}
+.sharing{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.year{
+    border: 2px solid black;
+    padding: 30px;
+    gap: 10px;
+    margin-right: 10px;
+    background-color: orange;
+    
+
+}
+.year h3{
+    color: black;
+    font-weight: 650;
+    text-decoration: underline;
+}
+.year p{
+    color: white;
+}
+.project{
+    border: 2px solid black;
+    padding: 30px;
+    gap: 10px;
+    margin-right: 10px;
+    background-color: orange;
+    
+}
+.project h3{
+    color: black;
+    font-weight: 650;
+    text-decoration: underline;
+}
+.project p{
+    color: white;
+}
+.client{
+    border: 2px solid black;
+    padding: 30px;
+    gap: 10px;
+    background-color: orange;
+}
+.client h3{
+    color: black;
+    font-weight: 650;
+    text-decoration: underline;
+
+}
+.client p{
+    color: white;
+}
+.team h2 {
+    font-size: 50px;
+    color: orange;
+    font-weight: 700;
+    margin-top: 80px;    
+}
+.member{
+    background-color: #03033e;
+    padding-bottom: 80px;
+    margin-top: 180px;
+}
+.employee{
+    background-color: #242462;
+    height:323px;
+    margin-top:-50px;
+}
+.employee1{
+    background-color: #242462;
+    height: 328px;
+    margin-top:-50px;
+}
+.employee1 h3{
+    font-size: 30px;
+    font-weight:600 ;
+    background-color: white;
+    color: black;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+.employee1 p{
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+}
+.emp{
+    display: flex;
+    justify-content: space-evenly;
+}
+.employee1 img{
+    height:250px;
+    width:350px;
+    margin-top:-60px
+}
+.employee img{
+    height:259px;
+    width:350px;
+    margin-top: -70px;
+}
+
+.employee h3{
+    font-size: 30px;
+    font-weight:600 ;
+    background-color: white;
+    color: black;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+.employee p{
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+}

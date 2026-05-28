@@ -1,0 +1,598 @@
+.conn {
+  padding: 50px 0px;
+  background-color: #03033e;
+}
+
+.start {
+  display: flex;
+  justify-content: space-between;
+}
+
+.con-left h2 {
+  color: orange;
+  font-size: 90px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+.con-right {
+  padding-top: 40px;
+}
+
+.con-right p {
+  color: #f5f5f5;
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.7;
+  padding-top: 5px;
+}
+
+.con-right span {
+  font-weight: bold;
+}
+
+.con-right a {
+  color: white !important;
+}
+
+.contact-container {
+  margin: 70px auto;
+  padding: 0 250px;
+  color: #333;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-section label {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.name-row {
+  display: flex;
+  gap: 15px;
+}
+
+.input-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.main-label {
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.sub-label {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.form-input,
+.form-textarea {
+  padding: 12px;
+  border: 1px solid #d1d1d1;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #000;
+}
+
+.form-textarea {
+  height: 100px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.radio-input {
+  width: 18px;
+  height: 18px;
+  accent-color: #000;
+}
+
+.submit-button {
+  background-color: #03033e;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 30px;
+  width: fit-content;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  opacity: 0.8;
+  border: none;
+  transform: scale(0.98);
+}
+
+.submit-button:focus {
+  outline: 3px solid orange;
+}
+
+/* .error-text {
+  color: #d9534f;
+  font-size: 0.8rem;
+  margin-top: 4px;
+} */
+
+/* .error-box {
+  background: #b00020;
+  color: #fff;
+  font-weight: 600;
+} */
+/* 
+.input-error {
+  border: 1px solid #d9534f !important;
+} */
+
+.success-message {
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* .error-input {
+  border: 2px solid #d32f2f !important;
+  background-color: #fff5f5;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+} */
+
+.success-popup {
+  background: #d4edda;
+  color: #155724;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 500;
+  animation: fadeOut 5s forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.error-summary {
+  background: #d32f2f;
+  color: white;
+  padding: 0px 6px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  text-align: start;
+}
+
+.error-box {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  background: #d32f2f;
+  color: white;
+  padding: 4px 10px;
+  font-size: 13px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+
+.error-input {
+  border: 1px solid #d32f2f;
+}
+
+.map-section {
+  padding: 60px 40px;
+  transition: 0.4s;
+}
+
+.map-section:hover {
+  transform: translateY(-5px);
+}
+
+.map {
+  display: flex;
+  gap: 40px;
+  align-items: stretch;
+  background: #03033e;
+  border-radius: 10px;
+  padding: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.map::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(135deg, #f4a261, #e76f51, #2a9d8f);
+  filter: blur(20px);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.map-info {
+  flex: 1;
+  text-align: start;
+  padding-left: 80px;
+  /* background-color: #03033e; */
+}
+
+.map-info h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: orange;
+  border-bottom: 2px solid white;
+  display: inline-block;
+}
+
+.map-info p {
+  font-size: 20px;
+  color: white;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+
+.info-item i {
+  color: white;
+  font-size: 16px;
+  min-width: 20px;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.info-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.map-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.map-buttons a {
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.map-buttons a:hover {
+  color: orange;
+  border: 2px solid orange;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+.map-box {
+  flex: 1;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(232, 229, 229, 0.8);
+  height: 450px;
+  margin-right: 80px;
+}
+
+.praise {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.praise img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.praise p {
+  font-size: 25px;
+  background-color: white;
+  color: black;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.praise span {
+  font-size: 18px;
+}
+
+.praise .text-overlay {
+  position: absolute;
+  left: 370px;
+  right: 370px;
+  top: 150px;
+  text-align: center;
+}
+
+.form-input:focus,
+.form-textarea:focus,
+.radio-input:focus,
+.submit-button:focus,
+.map-buttons a:focus {
+  outline-offset: 2px;
+}
+
+a:focus {
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.radio-input {
+  cursor: pointer;
+}
+
+.radio-option {
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.map-section:hover,
+.map-section:focus-within {
+  transform: translateY(-5px);
+}
+
+.budget-radio-group {
+  display: flex;
+  gap: 25px;
+  margin: 15px 0 18px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #444;
+}
+
+.radio-label input {
+  accent-color: #8b7d5f;
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 1024px) {
+
+  .start {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .con-left h2 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .con-right {
+    text-align: center;
+  }
+
+  .con-right p {
+    text-align: center;
+  }
+
+  .contact-container {
+    padding: 0 60px;
+  }
+
+  .name-row {
+    flex-direction: column;
+  }
+
+  .map {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .map-info {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+  }
+
+  .map-box {
+    height: 350px;
+    margin: 0px 80px;
+  }
+
+  .praise .text-overlay {
+    left: 50px;
+    right: 50px;
+    top: 120px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .con-left h2 {
+    font-size: 80px;
+    text-align: left;
+    margin-bottom: -39px;
+  }
+
+  .con-right p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .contact-container {
+    padding: 0 20px;
+  }
+
+  .form-section label,
+  .main-label {
+    font-size: 16px;
+  }
+
+  .form-input,
+  .form-textarea {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .radio-option {
+    font-size: 15px;
+  }
+
+  .submit-button {
+    text-align: center;
+  }
+
+  .map {
+    padding: 25px;
+    gap: 20px;
+  }
+
+  .map-info {
+    display: block;
+  }
+
+  .map-info h2 {
+    font-size: 24px;
+  }
+
+  .map-info p {
+    font-size: 15px;
+  }
+
+  .map-box {
+    height: 300px;
+  }
+
+  .praise {
+    height: 300px;
+  }
+
+  .praise p {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .praise .text-overlay {
+    left: 20px;
+    right: 20px;
+    top: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .con-left h2 {
+    font-size: 38px;
+  }
+
+  .con-right p {
+    font-size: 14px;
+  }
+
+  .contact-container {
+    padding: 0 15px;
+  }
+
+  .form-input,
+  .form-textarea {
+    font-size: 14px;
+  }
+
+  .map {
+    padding: 15px;
+  }
+
+  .map-info {
+    padding-left: 0px;
+    display: block;
+  }
+
+  .map-box {
+    height: 250px;
+  }
+
+  .submit-button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .praise {
+    height: 250px;
+  }
+
+  .praise p {
+    font-size: 9px;
+  }
+}

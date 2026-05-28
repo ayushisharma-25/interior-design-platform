@@ -1,0 +1,626 @@
+.farmhouse-hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: #0b0905;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    font-family: Georgia, serif;
+}
+
+.farmhouse-overlay1 {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg,
+            rgba(0, 0, 0, 0.92) 0%,
+            rgba(0, 0, 0, 0.82) 28%,
+            rgba(0, 0, 0, 0.35) 55%,
+            rgba(0, 0, 0, 0.08) 100%);
+    z-index: 1;
+}
+
+.farmhouse-content {
+    position: absolute;
+    left: 55px;
+    z-index: 3;
+    max-width: 430px;
+    color: orange;
+}
+
+.project-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: -300px;
+    margin-bottom: 20px;
+    color: #c48b2d;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.project-icon {
+    font-size: 22px;
+    color: #c48b2d;
+}
+
+.title-line {
+    width: 100px;
+    height: 2px;
+    background: #b88a2c;
+    margin-bottom: 18px;
+}
+
+.bottom-line {
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+.farmhouse-content h1 {
+    font-size: 72px;
+    font-weight: 500;
+    color: #d8a23d;
+    text-align: left;
+    margin: 0;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.farmhouse-content p {
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.9;
+    color: #e7e1d7;
+    margin-bottom: 22px;
+    font-family: Arial, sans-serif;
+}
+
+.farmhouse-content button {
+    margin-top: 20px;
+    padding: 16px 28px;
+    background: transparent;
+    border: 1px solid #b88a2c;
+    color: #d8a23d;
+    font-size: 14px;
+    margin-left: -170px;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: 0.35s ease;
+}
+
+.farmhouse-content button:hover {
+    background: #b88a2c;
+    color: black;
+}
+
+.farmhouse-image-box {
+    width: 100%;
+    height: 100vh;
+}
+
+.farmhouse-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-project {
+    display: grid;
+    grid-template-columns: 1.1fr 1.2fr 0.9fr;
+    gap: 60px;
+    padding: 50px 110px;
+    background: #f7f5ef;
+    align-items: center;
+}
+
+/* LEFT SIDE */
+.about-tag {
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: black;
+    font-weight: 600;
+}
+
+.about-left {
+    text-align: left;
+}
+
+.about-left h2 {
+    font-size: 58px;
+    line-height: 1.1;
+    font-weight: 400;
+    color: #2f3228;
+    margin: 18px 0;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.about-line {
+    width: 50px;
+    height: 2px;
+    background: #7d7d7d;
+    margin: 20px 0 28px;
+}
+
+.about-left p {
+    font-size: 17px;
+    line-height: 1.9;
+    color: #474747;
+    margin-bottom: 18px;
+    max-width: 420px;
+}
+
+/* CENTER FEATURES */
+.about-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px 35px;
+}
+
+.feature-box i {
+    font-size: 34px;
+    margin-left: -160px;
+    color: #9b947f;
+    margin-bottom: 15px;
+}
+
+.feature-box h4 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #4b4b4b;
+    text-align: left;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.feature-box p {
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: left;
+    color: #676767;
+}
+
+/* RIGHT IMAGE */
+.about-image img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.living-section {
+    background: blanchedalmond;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.living-top {
+    display: grid;
+    grid-template-columns: 28% 72%;
+    align-items: stretch;
+}
+
+/* LEFT PANEL */
+.living-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.living-tag {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: orange;
+    font-weight: 600;
+}
+
+.living-content h2 {
+    font-size: 62px;
+    line-height: 1.05;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    color: orange;
+}
+
+.living-line {
+    width: 60px;
+    height: 2px;
+    background: orange;
+    margin: 15px 0 10px;
+}
+
+.living-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: orange;
+    margin-bottom: 5px;
+}
+
+.living-content ul {
+    padding-left: 18px;
+}
+
+.living-content ul li {
+    font-size: 17px;
+    color: orange;
+    margin-bottom: 5px;
+    line-height: 1.7;
+}
+
+.main-image-box img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    margin-top: 3px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+}
+
+.details-section {
+    background: #f7f5ef;
+    padding: 70px 30px;
+}
+
+.details-container {
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 28% 72%;
+    align-items: start;
+}
+
+/* LEFT */
+.details-left {
+    padding-right: 20px;
+    text-align: left;
+}
+
+.details-tag {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: black;
+    font-weight: 600;
+}
+
+.details-left h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    margin: 18px 0;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    color: #2c2f26;
+}
+
+.details-line {
+    width: 45px;
+    height: 2px;
+    background: #9a9a9a;
+    margin: 10px 0 5px;
+}
+
+.details-left p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: black;
+    max-width: 350px;
+}
+
+/* RIGHT GRID */
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.detail-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.detail-card h4 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #494949;
+    text-align: left;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.detail-card p {
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.7;
+    color: #666;
+}
+
+.outdoor {
+    background-color: #03033e;
+}
+
+.outdoor-grid {
+    display: grid;
+    grid-template-columns: 28% 72%;
+    padding: 50px 0;
+}
+
+.outdoor-left {
+    text-align: left;
+}
+
+.outdoor-left span {
+    font-size: 8px;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: 600;
+}
+
+.outdoor-left h2 {
+    font-size: 40px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    line-height: 1.1;
+    margin: 18px 0;
+    color: white;
+}
+
+.line-outside {
+    width: 60px;
+    height: 2px;
+    background: orange;
+    margin: 18px 0 25px;
+}
+
+.outdoor-left p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: white;
+    padding-right: 10px;
+}
+
+.outdoor-left ul {
+    padding-left: 18px;
+}
+
+.outdoor-left li {
+    margin-bottom: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.outdoor-images {
+    display: grid;
+    grid-template-columns: 2fr 1.3fr;
+    gap: 18px;
+}
+
+.outdoor-images img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+}
+
+/* SECTION 2 */
+.info-section {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    align-items: center;
+    padding: 35px 0;
+    border-top: 1px solid #ddd;
+}
+
+.info-left {
+    text-align: left;
+}
+
+.info-left h2 {
+    font-size: 60px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    line-height: 1.1;
+    color: black;
+}
+
+.info-left span {
+    font-size: 8px;
+    letter-spacing: 3px;
+    color: black;
+    font-weight: 600;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.info-box {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+}
+
+.info-box i {
+    font-size: 28px;
+    color: orange;
+    margin-top: 4px;
+}
+
+.info-box h4 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: black;
+}
+
+.info-box p {
+    font-size: 15px;
+    color: #333;
+}
+
+/* SECTION 3 */
+.quote-section {
+    background: linear-gradient(90deg, rgb(105 70 4), rgb(227 169 54), rgb(81 53 3));
+    padding: 35px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote-text p {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.quote-text span {
+    color: #ddd;
+    font-size: 15px;
+}
+
+.quote-section button {
+    padding: 16px 28px;
+    border: 1px solid orange;
+    background: transparent;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+
+    .outdoor-grid,
+    .info-section {
+        grid-template-columns: 1fr;
+    }
+
+    .outdoor-images {
+        grid-template-columns: 1fr;
+    }
+
+    .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .quote-section {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+    .details-container {
+        grid-template-columns: 1fr;
+    }
+
+    .details-left h2 {
+        font-size: 42px;
+    }
+
+    .details-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    .details-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+    .living-top {
+        grid-template-columns: 1fr;
+    }
+
+    .living-content h2 {
+        font-size: 42px;
+    }
+
+    .main-image-box img {
+        height: 450px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-grid img {
+        height: 180px;
+    }
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+    .about-project {
+        grid-template-columns: 1fr;
+        padding: 60px 25px;
+    }
+
+    .about-left h2 {
+        font-size: 42px;
+    }
+
+    .about-image img {
+        height: 420px;
+    }
+}
+
+/* responsive */
+@media (max-width: 900px) {
+    .farmhouse-content {
+        left: 25px;
+        max-width: 90%;
+    }
+
+    .farmhouse-content h1 {
+        font-size: 48px;
+    }
+
+    .farmhouse-content p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+}
+
+@media (max-width: 600px) {
+    .farmhouse-hero {
+        min-height: 85vh;
+    }
+
+    .farmhouse-content h1 {
+        font-size: 38px;
+    }
+
+    .farmhouse-content button {
+        width: 100%;
+    }
+}
