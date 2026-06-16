@@ -62,7 +62,7 @@ function RecentProjectsSection() {
 
             <button
                 onClick={() => navigate("/portfolio")}
-                className="view-btn"
+                className="view-btn1"
             >
                 View All Projects
             </button>

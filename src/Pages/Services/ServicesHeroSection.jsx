@@ -18,7 +18,7 @@ function ServicesHeroSection() {
 
             <div className="hero-overlay" />
 
-            <div className="hero-content">
+            <div className="hero-content1">
 
                 <h1>
                     Transform Your Space

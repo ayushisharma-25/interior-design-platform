@@ -12,7 +12,9 @@ A modern Interior Design frontend web application with furniture e-commerce feat
 
 ---
 
-## 🧾 Overview
+---
+
+## 📖 Brief One Line Summary
 
 This project is a frontend-based Interior Design and Furniture E-Commerce website developed using modern web technologies like HTML, CSS, JavaScript, and React.js.
 
@@ -229,5 +231,5 @@ Frontend Developer
 ## 📞 Contact
 
 * Email: [ayushisharmaa2005@gmail.com](mailto:ayushisharmaa2005@gmail.com)
-* GitHub: https://github.com/yourusername
+* GitHub: https://github.com/ayushisharma-25
 * LinkedIn: https://linkedin.com/in/yourprofile

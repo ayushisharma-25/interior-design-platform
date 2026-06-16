@@ -55,7 +55,7 @@ function FloatingSocial() {
       </div>
 
       <button
-        className={`main-btn ${open ? "active" : ""}`}
+        className={`main-btn1 ${open ? "active" : ""}`}
         onClick={toggleOpen}
         aria-label={open ? "Close social links" : "Open social links"}
         aria-expanded={open}

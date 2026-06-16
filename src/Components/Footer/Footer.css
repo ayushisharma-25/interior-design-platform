@@ -229,7 +229,6 @@
 
 .footer-details li {
     position: relative;
-    padding-left: 22px;
     margin-bottom: 14px;
     font-size: 15px;
     color: black;
@@ -662,6 +661,8 @@
     .footer-links,
     .footer-details {
         width: 100%;
+        text-align: left;
+        padding-left: 22px;
     }
 }
 

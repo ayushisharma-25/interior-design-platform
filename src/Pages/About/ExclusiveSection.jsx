@@ -3,8 +3,10 @@ import { useNavigate } from "react-router-dom";
 import { useCart } from "../../context/CartContext";
 import { products } from "../../Data/AboutProducts";
 import { createPortal } from "react-dom";
+import { useContext } from "react";
+import { AppContext } from "../../context/AppContext";
 
-function ExclusiveSection({ triggerToast }) {
+function ExclusiveSection() {
 
     const navigate = useNavigate();
     const [toast, setToast] = useState(null);
@@ -14,6 +16,11 @@ function ExclusiveSection({ triggerToast }) {
     const [filter, setFilter] = useState("Dining");
 
     const [wishlistIds, setWishlistIds] = useState([]);
+
+    const {
+        setToastMsg,
+        setShowToast,
+    } = useContext(AppContext);
 
     const getWishlist = () => {
         return JSON.parse(localStorage.getItem("wishlist")) || [];
@@ -122,9 +129,10 @@ function ExclusiveSection({ triggerToast }) {
 
                                     toggleWishlist(item);
 
-                                    triggerToast(
+                                    setToastMsg(
                                         exists ? "removed" : "saved"
                                     );
+                                    setShowToast(true);
                                 }}
                             >
 
@@ -149,7 +157,7 @@ function ExclusiveSection({ triggerToast }) {
                             <div className="card-actions">
 
                                 <button
-                                    className="add-cart-btn"
+                                    className="add-cart-btn1"
                                     onClick={() => handleAddToCart(item)}
                                 >
                                     {loadingId === item.id ? "Adding..." : "Add to Cart"}

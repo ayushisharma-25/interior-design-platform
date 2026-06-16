@@ -5,7 +5,7 @@
   z-index: 999;
 }
 
-.main-btn {
+.main-btn1 {
   width: 60px;
   height: 60px;
   background: orange;
@@ -17,7 +17,7 @@
   transition: 0.3s ease;
 }
 
-.main-btn span {
+.main-btn1 span {
   position: absolute;
   background: black;
   width: 22px;
@@ -28,20 +28,20 @@
   transition: all 0.4s ease;
 }
 
-.main-btn span:nth-child(2) {
+.main-btn1 span:nth-child(2) {
   transform: translate(-50%, -50%) rotate(90deg);
 }
 
-.main-btn:hover {
+.main-btn1:hover {
   transform: scale(1.08);
 }
 
-.main-btn.active span:nth-child(2) {
+.main-btn1.active span:nth-child(2) {
   transform: translate(-50%, -50%) rotate(0deg);
   opacity: 0;
 }
 
-.main-btn.active {
+.main-btn1.active {
   transform: rotate(360deg);
 }
 
@@ -128,4 +128,112 @@
 
 .fab-social-icons.show a:nth-child(3) {
   transition-delay: 0.3s;
+}
+
+
+@media (max-width: 1024px) {
+
+  .fab-container {
+    bottom: 25px;
+    right: 25px;
+  }
+
+  .main-btn1 {
+    width: 56px;
+    height: 56px;
+  }
+
+  .fab-social-icons {
+    bottom: 65px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .fab-container {
+    bottom: 22px;
+    right: 22px;
+  }
+
+  .main-btn1 {
+    width: 52px;
+    height: 52px;
+  }
+
+  .main-btn1 span {
+    width: 20px;
+  }
+
+  .fab-social-icons {
+    gap: 10px;
+    bottom: 62px;
+  }
+
+  .fab-social-icons a {
+    width: 42px;
+    height: 42px;
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .fab-container {
+    bottom: 18px;
+    right: 18px;
+  }
+
+  .main-btn1 {
+    width: 48px;
+    height: 48px;
+  }
+
+  .main-btn1 span {
+    width: 18px;
+    height: 2px;
+  }
+
+  .fab-social-icons {
+    bottom: 58px;
+    gap: 9px;
+    margin-right: 4px;
+  }
+
+  .fab-social-icons a {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .fab-container {
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .main-btn1 {
+    width: 44px;
+    height: 44px;
+  }
+
+  .main-btn1 span {
+    width: 16px;
+  }
+
+  .fab-social-icons {
+    bottom: 52px;
+    gap: 8px;
+  }
+
+  .fab-social-icons a {
+    width: 36px;
+    height: 36px;
+    font-size: 13px;
+  }
+
 }

@@ -196,18 +196,20 @@
     margin-top: 10px;
 }
 
-.add-cart-btn,
+.add-cart-btn1,
 .buy-now-btn {
     padding: 8px 10px;
     border: none;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: 500;
     border-radius: 5px;
 }
 
-.add-cart-btn {
-    background: #222;
-    color: #fff;
+.add-cart-btn1 {
+    background: transparent;
+    color: black;
+    border: 1px solid black;
 }
 
 .buy-now-btn {

@@ -1,7 +1,5 @@
 import { NavLink, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-// import { useContext } from "react";
-// import { ThemeContext } from "../../context/ThemeContext";
 import logo from "../../Assets/logo.png";
 import "./Navbar.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -10,7 +8,6 @@ function Navbar({ openWishlist }) {
   const navigate = useNavigate();
   const [count, setCount] = useState(0);
   const [scrolled, setScrolled] = useState(false);
-  // const { theme, toggleTheme } = useContext(ThemeContext);
 
   const getWishlist = () => {
     return JSON.parse(localStorage.getItem("wishlist")) || [];
@@ -82,14 +79,6 @@ function Navbar({ openWishlist }) {
           <li className="nav-icon" onClick={() => navigate("/my-orders")}>
             <i className="fa-solid fa-cart-shopping"></i>
           </li>
-
-          {/* <button
-            className="theme-btn"
-            onClick={toggleTheme}
-          >
-            {theme === "light" ? "🌙" : "☀️"}
-          </button> */}
-
           <button
             className="wishlist-icon"
             onClick={openWishlist}

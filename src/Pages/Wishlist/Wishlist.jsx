@@ -192,6 +192,7 @@ function Wishlist({ isOpen, setIsOpen }) {
                         <button
                             onClick={() => {
                                 setIsOpen(false);
+
                                 setTimeout(() => {
                                     document.dispatchEvent(new Event("openCart"));
                                 }, 100);
@@ -200,7 +201,10 @@ function Wishlist({ isOpen, setIsOpen }) {
                         >
                             View Cart
                         </button>
-                    </div>
+
+                    </div>,
+
+                    document.body
                 )
             }
         </>

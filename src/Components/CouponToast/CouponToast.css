@@ -82,16 +82,152 @@
     transform: scale(1.05);
 }
 
-/* .toast-content h4{
-    margin: 0;
-    font-size: 25px;
-    color: #111;
-    letter-spacing: 1px;
+@media (max-width: 1024px) {
+
+  .coupon-toast{
+    width: 320px;
+    right: 20px;
+    bottom: 25px;
+    padding: 16px;
+  }
+
+  .coupon-content h4{
+    font-size: 20px;
+  }
+
+  .coupon-content p{
+    font-size: 15px;
+  }
+
 }
 
-.toast-content p{
-    margin-top: 8px;
+@media (max-width: 768px) {
+
+  .coupon-toast{
+    width: 290px;
+    right: 16px;
+    bottom: 20px;
+    padding: 15px;
+    border-radius: 18px;
+  }
+
+  .toast-top{
+    margin-bottom: 12px;
+  }
+
+  .toast-badge{
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .copy-btn{
+    font-size: 12px;
+    padding: 7px 12px;
+  }
+
+  .coupon-card{
+    gap: 10px;
+  }
+
+  .coupon-icon{
+    font-size: 20px;
+  }
+
+  .coupon-content h4{
+    font-size: 18px;
+  }
+
+  .coupon-content p{
     font-size: 14px;
-    color: #666;
-    line-height: 1.6;
-} */
+    line-height: 1.5;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .coupon-toast{
+    width: calc(100% - 24px);
+    max-width: 320px;
+    right: 12px;
+    bottom: 16px;
+    padding: 14px;
+    border-radius: 16px;
+  }
+
+  .toast-top{
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .toast-badge{
+    font-size: 11px;
+    padding: 5px 9px;
+  }
+
+  .copy-btn{
+    font-size: 11px;
+    padding: 6px 10px;
+    white-space: nowrap;
+  }
+
+  .coupon-card{
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .coupon-icon{
+    font-size: 18px;
+    margin-top: 2px;
+  }
+
+  .coupon-content h4{
+    font-size: 17px;
+  }
+
+  .coupon-content p{
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .coupon-toast{
+    width: calc(100% - 16px);
+    right: 8px;
+    bottom: 12px;
+    padding: 12px;
+    border-radius: 14px;
+  }
+
+  .toast-top{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .copy-btn{
+    width: 100%;
+    text-align: center;
+  }
+
+  .coupon-card{
+    gap: 8px;
+  }
+
+  .coupon-icon{
+    font-size: 16px;
+  }
+
+  .coupon-content h4{
+    font-size: 15px;
+  }
+
+  .coupon-content p{
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+}

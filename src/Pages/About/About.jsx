@@ -10,7 +10,7 @@ import MinimalSection from "./MinimalSection";
 import InspiringSection from "./InspiringSection";
 import ProjectsSection from "./ProjectsSection";
 
-function About({ triggerToast }) {
+function About() {
   useEffect(() => {
     window.scrollTo(0, 0);
 
@@ -23,7 +23,7 @@ function About({ triggerToast }) {
   return (
     <>
       <AboutHeroSection />
-      <ExclusiveSection triggerToast={triggerToast} />
+      <ExclusiveSection />
       <ExperienceSection />
       <MinimalSection />
       <InspiringSection />
