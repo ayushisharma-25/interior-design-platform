@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
-import { CartProvider } from "./Context/CartContext";
+import { CartProvider } from "./context/CartContext";
 import AppProvider from "./context/AppContext";
 import AppContent from "./layout/AppContent";
 
