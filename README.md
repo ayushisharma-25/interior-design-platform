@@ -232,4 +232,4 @@ Frontend Developer
 
 * Email: [ayushisharmaa2005@gmail.com](mailto:ayushisharmaa2005@gmail.com)
 * GitHub: https://github.com/ayushisharma-25
-* LinkedIn: https://linkedin.com/in/yourprofile
+* LinkedIn: www.linkedin.com/in/ayushisharma25
