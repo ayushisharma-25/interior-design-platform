@@ -3,7 +3,7 @@ import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import { CartProvider } from "./context/CartContext";
 import AppProvider from "./context/AppContext";
-import AppContent from "./layout/AppContent";
+import AppContent from "./Layout/AppContent";
 
 function App() {
 
