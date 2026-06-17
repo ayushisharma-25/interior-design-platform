@@ -9,7 +9,7 @@ import OrderSummary from "./Components/OrderSummary";
 import PaymentSection from "./Components/PaymentSection";
 import { DISCOUNT_CODES } from "./Data/discountCodes";
 import ShippingSection from "./Components/ShippingSection";
-import shippingOptions from "./Data/ShippingOptions";
+import ShippingOptions from "../../Data/ShippingOptions";
 import { useCheckoutForm } from "./Hooks/useCheckoutForm";
 import { createOrder } from "./Services/orderService";
 import GatewayModal from "./Components/GatewayModal";
