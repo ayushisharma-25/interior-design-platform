@@ -2,7 +2,7 @@ import "./Contact.css";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useState } from "react";
-import ending from '../../assets/ending1.jpg';
+import ending from '../../Assets/ending1.jpg';
 import {
   validateName,
   validateEmail,

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import FaqImg from "../../assets/faq.jpg";
+import FaqImg from "../../Assets/faq.jpg";
 
 import {
     FaLock,

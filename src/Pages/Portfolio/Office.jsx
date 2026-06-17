@@ -1,18 +1,18 @@
 import { PiBuildingsFill } from "react-icons/pi";
 import './farmhouse.css'
-import officeImg from '../../assets/office1.png';
-import officeImg2 from "../../assets/office2.png";
-import mainInterior from "../../assets/office3.png";
-import living1 from "../../assets/office4.png";
-import kitchenImg from "../../assets/office5.png";
-import kitchen2 from "../../assets/office6.jpg";
-import bedroomImg from "../../assets/office7.png";
-import stoneImg from "../../assets/office8.jpg";
-import woodImg from "../../assets/office9.png";
-import openingImg from "../../assets/office10.jpg";
-import finishImg from "../../assets/office11.png";
-import outdoor1 from "../../assets/office12.png";
-import outdoor2 from "../../assets/office13.png";
+import officeImg from '../../Assets/office1.png';
+import officeImg2 from "../../Assets/office2.png";
+import mainInterior from "../../Assets/office3.png";
+import living1 from "../../Assets/office4.png";
+import kitchenImg from "../../Assets/office5.png";
+import kitchen2 from "../../Assets/office6.jpg";
+import bedroomImg from "../../Assets/office7.png";
+import stoneImg from "../../Assets/office8.jpg";
+import woodImg from "../../Assets/office9.png";
+import openingImg from "../../Assets/office10.jpg";
+import finishImg from "../../Assets/office11.png";
+import outdoor1 from "../../Assets/office12.png";
+import outdoor2 from "../../Assets/office13.png";
 
 function Office() {
   const details = [

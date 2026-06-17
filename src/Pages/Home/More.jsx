@@ -1,8 +1,8 @@
 import './More.css'
-import forest from '../../assets/forest.jpg';
-import company from '../../assets/company.jpg';
-import person11 from '../../assets/person11.png';
-import person2 from '../../assets/person2.png';
+import forest from '../../Assets/forest.jpg';
+import company from '../../Assets/company.jpg';
+import person11 from '../../Assets/person11.png';
+import person2 from '../../Assets/person2.png';
 import { useEffect } from "react";
 
 function More() {

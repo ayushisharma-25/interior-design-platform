@@ -67,7 +67,7 @@ export const sendEmail = async (req, res) => {
                 attachments: [
                     {
                         filename: "logo.png",
-                        path: "./assets/logo.png",
+                        path: "./Assets/logo.png",
                         cid: "indoorlogo"
                     }
                 ],
@@ -100,7 +100,7 @@ export const sendEmail = async (req, res) => {
                 attachments: [
                     {
                         filename: "logo.png",
-                        path: "./assets/logo.png",
+                        path: "./Assets/logo.png",
                         cid: "indoorlogo"
                     }
                 ],

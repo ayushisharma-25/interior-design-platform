@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Interior from "../../assets/services1.jpg";
-import Renovation from "../../assets/renovation.jpg";
+import Interior from "../../Assets/services1.jpg";
+import Renovation from "../../Assets/renovation.jpg";
 
 import {
     FaCouch,

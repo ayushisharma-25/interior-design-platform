@@ -1,10 +1,10 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import Project1 from "../../assets/project1.jpg";
-import Project2 from "../../assets/project2.jpg";
-import Project3 from "../../assets/project3.png";
-import Project4 from "../../assets/project4.jpeg";
+import Project1 from "../../Assets/project1.jpg";
+import Project2 from "../../Assets/project2.jpg";
+import Project3 from "../../Assets/project3.png";
+import Project4 from "../../Assets/project4.jpeg";
 
 function RecentProjectsSection() {
 

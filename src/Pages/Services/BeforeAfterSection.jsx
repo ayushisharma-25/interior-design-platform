@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 
-import Before1 from "../../assets/before1.png";
-import Before2 from "../../assets/before2.png";
-import Before3 from "../../assets/before3.png";
-import Before4 from "../../assets/before4.png";
-import Before5 from "../../assets/before5.png";
+import Before1 from "../../Assets/before1.png";
+import Before2 from "../../Assets/before2.png";
+import Before3 from "../../Assets/before3.png";
+import Before4 from "../../Assets/before4.png";
+import Before5 from "../../Assets/before5.png";
 
-import After1 from "../../assets/after1.jpg";
-import After2 from "../../assets/after2.jpg";
-import After3 from "../../assets/after3.webp";
-import After4 from "../../assets/after4.jpg";
-import After5 from "../../assets/after5.jpg";
+import After1 from "../../Assets/after1.jpg";
+import After2 from "../../Assets/after2.jpg";
+import After3 from "../../Assets/after3.webp";
+import After4 from "../../Assets/after4.jpg";
+import After5 from "../../Assets/after5.jpg";
 
 function BeforeAfterSection() {
 

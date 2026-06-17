@@ -301,7 +301,7 @@
     position: relative;
     padding: 20px 70px;
     overflow: hidden;
-    background: linear-gradient(rgb(251 251 251 / 62%), rgb(172 203 253 / 44%)), url("../../assets/farmhouseproject1.1.jpg");
+    background: linear-gradient(rgb(251 251 251 / 62%), rgb(172 203 253 / 44%)), url("../../Assets/farmhouseproject1.1.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 40px;

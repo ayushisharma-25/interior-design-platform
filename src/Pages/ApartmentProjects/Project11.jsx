@@ -1,23 +1,23 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Project11.css";
-import ApartmentProject11_1 from "../../assets/apartmentproject11.1.jpg";
-import ApartmentProject11_2 from "../../assets/apartmentproject11.2.jpg";
-import ApartmentProject11_3 from "../../assets/apartmentproject11.3.jpg";
-import ApartmentProject11_4 from "../../assets/apartmentproject11.4.jpg";
-import ApartmentProject11_5 from "../../assets/apartmentproject11.5.jpg";
-import ApartmentProject11_6 from "../../assets/apartmentproject11.6.png";
-import ApartmentProject11_7 from "../../assets/apartmentproject11.1.jpg";
-import ApartmentProject11_8 from "../../assets/apartmentproject11.8.jpg";
-import ApartmentProject11_9 from "../../assets/apartmentproject11.9.jpg";
-import ApartmentProject11_10 from "../../assets/apartmentproject11.10.jpg";
-import ApartmentProject11_11 from "../../assets/apartmentproject11.11.jpg";
-import ApartmentProject11_12 from "../../assets/apartmentproject11.12.jpg";
-import ApartmentProject11_13 from "../../assets/apartmentproject11.13.jpg";
-import ApartmentProject11_14 from "../../assets/apartmentproject11.14.jpg";
-import ApartmentProject11_15 from "../../assets/apartmentproject11.15.jpg";
-import ApartmentProject11_16 from "../../assets/apartmentproject11.16.jpg";
-import ApartmentProject11_17 from "../../assets/apartmentproject11.17.png";
+import ApartmentProject11_1 from "../../Assets/apartmentproject11.1.jpg";
+import ApartmentProject11_2 from "../../Assets/apartmentproject11.2.jpg";
+import ApartmentProject11_3 from "../../Assets/apartmentproject11.3.jpg";
+import ApartmentProject11_4 from "../../Assets/apartmentproject11.4.jpg";
+import ApartmentProject11_5 from "../../Assets/apartmentproject11.5.jpg";
+import ApartmentProject11_6 from "../../Assets/apartmentproject11.6.png";
+import ApartmentProject11_7 from "../../Assets/apartmentproject11.1.jpg";
+import ApartmentProject11_8 from "../../Assets/apartmentproject11.8.jpg";
+import ApartmentProject11_9 from "../../Assets/apartmentproject11.9.jpg";
+import ApartmentProject11_10 from "../../Assets/apartmentproject11.10.jpg";
+import ApartmentProject11_11 from "../../Assets/apartmentproject11.11.jpg";
+import ApartmentProject11_12 from "../../Assets/apartmentproject11.12.jpg";
+import ApartmentProject11_13 from "../../Assets/apartmentproject11.13.jpg";
+import ApartmentProject11_14 from "../../Assets/apartmentproject11.14.jpg";
+import ApartmentProject11_15 from "../../Assets/apartmentproject11.15.jpg";
+import ApartmentProject11_16 from "../../Assets/apartmentproject11.16.jpg";
+import ApartmentProject11_17 from "../../Assets/apartmentproject11.17.png";
 
 import {
   MapPin,

@@ -2,22 +2,22 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Project1.css";
 
-import FarmhouseProject61 from "../../assets/farmhouseproject6.1.png";
-import FarmhouseProject62 from "../../assets/farmhouseproject6.2.png";
-import FarmhouseProject63 from "../../assets/farmhouseproject6.3.png";
-import FarmhouseProject64 from "../../assets/farmhouseproject6.4.webp";
-import FarmhouseProject65 from "../../assets/farmhouseproject6.5.webp";
-import FarmhouseProject66 from "../../assets/farmhouseproject6.6.webp";
-import FarmhouseProject67 from "../../assets/farmhouseproject6.7.webp";
-import FarmhouseProject68 from "../../assets/farmhouseproject6.8.webp";
-import FarmhouseProject69 from "../../assets/farmhouseproject6.9.webp";
-// import Material1 from "../../assets/farmhouseproject6.10.png";
-// import Material2 from "../../assets/farmhouseproject6.11.jpg";
-// import Material3 from "../../assets/farmhouseproject6.12.webp";
-// import Material4 from "../../assets/farmhouseproject6.13.jpg";
-// import Material5 from "../../assets/farmhouseproject6.14.png";
-// import Material6 from "../../assets/farmhouseproject6.15.jpg";
-import ClientImage from "../../assets/farmhouseproject6.16.png";
+import FarmhouseProject61 from "../../Assets/farmhouseproject6.1.png";
+import FarmhouseProject62 from "../../Assets/farmhouseproject6.2.png";
+import FarmhouseProject63 from "../../Assets/farmhouseproject6.3.png";
+import FarmhouseProject64 from "../../Assets/farmhouseproject6.4.webp";
+import FarmhouseProject65 from "../../Assets/farmhouseproject6.5.webp";
+import FarmhouseProject66 from "../../Assets/farmhouseproject6.6.webp";
+import FarmhouseProject67 from "../../Assets/farmhouseproject6.7.webp";
+import FarmhouseProject68 from "../../Assets/farmhouseproject6.8.webp";
+import FarmhouseProject69 from "../../Assets/farmhouseproject6.9.webp";
+// import Material1 from "../../Assets/farmhouseproject6.10.png";
+// import Material2 from "../../Assets/farmhouseproject6.11.jpg";
+// import Material3 from "../../Assets/farmhouseproject6.12.webp";
+// import Material4 from "../../Assets/farmhouseproject6.13.jpg";
+// import Material5 from "../../Assets/farmhouseproject6.14.png";
+// import Material6 from "../../Assets/farmhouseproject6.15.jpg";
+import ClientImage from "../../Assets/farmhouseproject6.16.png";
 
 import {
     FaCalendarAlt,

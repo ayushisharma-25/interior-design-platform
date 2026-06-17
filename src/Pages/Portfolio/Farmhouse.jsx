@@ -1,19 +1,19 @@
 import { PiTreeEvergreenFill } from "react-icons/pi";
 import { useNavigate } from "react-router-dom";
 import './Farmhouse.css'
-import FarmhouseImg from '../../assets/farmhouse1.png';
-import farmhouseImg2 from "../../assets/farmhouse2.png";
-import mainInterior from "../../assets/farmhouse3.png";
-import living1 from "../../assets/farmhouse3.png";
-import kitchenImg from "../../assets/farmhouse4.png";
-import kitchen2 from "../../assets/farmhouse5.png";
-import bedroomImg from "../../assets/farmhouse6.png";
-import stoneImg from "../../assets/farmhouse7.png";
-import woodImg from "../../assets/farmhouse8.png";
-import openingImg from "../../assets/farmhouse9.png";
-import finishImg from "../../assets/farmhouse10.png";
-import outdoor1 from "../../assets/farmhouse11.png";
-import outdoor2 from "../../assets/farmhouse12.png";
+import FarmhouseImg from '../../Assets/farmhouse1.png';
+import farmhouseImg2 from "../../Assets/farmhouse2.png";
+import mainInterior from "../../Assets/farmhouse3.png";
+import living1 from "../../Assets/farmhouse3.png";
+import kitchenImg from "../../Assets/farmhouse4.png";
+import kitchen2 from "../../Assets/farmhouse5.png";
+import bedroomImg from "../../Assets/farmhouse6.png";
+import stoneImg from "../../Assets/farmhouse7.png";
+import woodImg from "../../Assets/farmhouse8.png";
+import openingImg from "../../Assets/farmhouse9.png";
+import finishImg from "../../Assets/farmhouse10.png";
+import outdoor1 from "../../Assets/farmhouse11.png";
+import outdoor2 from "../../Assets/farmhouse12.png";
 
 function Farmhouse() {
   const navigate = useNavigate();

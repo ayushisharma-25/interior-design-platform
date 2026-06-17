@@ -2,19 +2,19 @@ import { PiTreeEvergreenFill } from "react-icons/pi";
 import { useNavigate } from "react-router-dom";
 import "./farmhouse.css";
 
-import ApartmentImg from "../../assets/apartment1.png";
-import apartmentImg2 from "../../assets/apartment2.png";
-import mainInterior from "../../assets/apartment3.png";
-import living1 from "../../assets/apartment4.png";
-import kitchenImg from "../../assets/apartment5.png";
-import kitchen2 from "../../assets/apartment6.png";
-import bedroomImg from "../../assets/apartment7.png";
-import stoneImg from "../../assets/apartment8.png";
-import woodImg from "../../assets/apartment9.png";
-import openingImg from "../../assets/apartment10.png";
-import finishImg from "../../assets/apartment11.png";
-import outdoor1 from "../../assets/apartment12.png";
-import outdoor2 from "../../assets/apartment13.png";
+import ApartmentImg from "../../Assets/apartment1.png";
+import apartmentImg2 from "../../Assets/apartment2.png";
+import mainInterior from "../../Assets/apartment3.png";
+import living1 from "../../Assets/apartment4.png";
+import kitchenImg from "../../Assets/apartment5.png";
+import kitchen2 from "../../Assets/apartment6.png";
+import bedroomImg from "../../Assets/apartment7.png";
+import stoneImg from "../../Assets/apartment8.png";
+import woodImg from "../../Assets/apartment9.png";
+import openingImg from "../../Assets/apartment10.png";
+import finishImg from "../../Assets/apartment11.png";
+import outdoor1 from "../../Assets/apartment12.png";
+import outdoor2 from "../../Assets/apartment13.png";
 
 function Apartment() {
   const navigate = useNavigate();

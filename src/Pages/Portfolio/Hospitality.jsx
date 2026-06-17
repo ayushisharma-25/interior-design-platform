@@ -2,19 +2,19 @@ import { FaHotel } from "react-icons/fa";
 import "./farmhouse.css";
 import { useNavigate } from "react-router-dom";
 
-import HospitalityImg from "../../assets/hospitality1.png";
-import hospitalityImg2 from "../../assets/hospitality13.png";
-import mainInterior from "../../assets/hospitality3.png";
-import living1 from "../../assets/hospitality4.png";
-import kitchenImg from "../../assets/hospitality5.png";
-import kitchen2 from "../../assets/hospitality6.png";
-import bedroomImg from "../../assets/hospitality7.png";
-import stoneImg from "../../assets/hospitality2.png";
-import woodImg from "../../assets/hospitality9.png";
-import openingImg from "../../assets/hospitality10.png";
-import finishImg from "../../assets/hospitality8.png";
-import outdoor1 from "../../assets/hospitality12.png";
-import outdoor2 from "../../assets/hospitality11.png";
+import HospitalityImg from "../../Assets/hospitality1.png";
+import hospitalityImg2 from "../../Assets/hospitality13.png";
+import mainInterior from "../../Assets/hospitality3.png";
+import living1 from "../../Assets/hospitality4.png";
+import kitchenImg from "../../Assets/hospitality5.png";
+import kitchen2 from "../../Assets/hospitality6.png";
+import bedroomImg from "../../Assets/hospitality7.png";
+import stoneImg from "../../Assets/hospitality2.png";
+import woodImg from "../../Assets/hospitality9.png";
+import openingImg from "../../Assets/hospitality10.png";
+import finishImg from "../../Assets/hospitality8.png";
+import outdoor1 from "../../Assets/hospitality12.png";
+import outdoor2 from "../../Assets/hospitality11.png";
 
 function Hospitality() {
   const navigate = useNavigate();

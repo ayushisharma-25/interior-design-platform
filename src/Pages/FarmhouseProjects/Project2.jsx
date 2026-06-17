@@ -3,26 +3,26 @@ import { useNavigate } from "react-router-dom";
 import "./Project1.css";
 
 
-import FarmhouseProject21 from "../../assets/farmhouseproject2.14.jpg";
-import FarmhouseProject22 from "../../assets/farmhouseproject2.19.png";
-import FarmhouseProject23 from "../../assets/farmhouseproject2.11.jpg";
+import FarmhouseProject21 from "../../Assets/farmhouseproject2.14.jpg";
+import FarmhouseProject22 from "../../Assets/farmhouseproject2.19.png";
+import FarmhouseProject23 from "../../Assets/farmhouseproject2.11.jpg";
 
 
-import FarmhouseProject24 from "../../assets/farmhouseproject2.13.jpg";
-import FarmhouseProject25 from "../../assets/farmhouseproject2.15.jpg";
-import FarmhouseProject26 from "../../assets/farmhouseproject2.16.jpg";
-import FarmhouseProject27 from "../../assets/farmhouseproject2.17.jpg";
-import FarmhouseProject28 from "../../assets/farmhouseproject2.18.jpg";
-import FarmhouseProject29 from "../../assets/farmhouseproject2.12.jpg";
+import FarmhouseProject24 from "../../Assets/farmhouseproject2.13.jpg";
+import FarmhouseProject25 from "../../Assets/farmhouseproject2.15.jpg";
+import FarmhouseProject26 from "../../Assets/farmhouseproject2.16.jpg";
+import FarmhouseProject27 from "../../Assets/farmhouseproject2.17.jpg";
+import FarmhouseProject28 from "../../Assets/farmhouseproject2.18.jpg";
+import FarmhouseProject29 from "../../Assets/farmhouseproject2.12.jpg";
 
 
-import Material1 from "../../assets/farmhouseproject2.20.jpg";
-import Material2 from "../../assets/farmhouseproject2.21.jpg";
-import Material3 from "../../assets/farmhouseproject2.22.jpg";
-import Material4 from "../../assets/farmhouseproject2.23.jpg";
-import Material5 from "../../assets/farmhouseproject2.24.jpg";
-import Material6 from "../../assets/farmhouseproject2.25.jpg";
-import ClientImage from "../../assets/farmhouseproject2.26.png";
+import Material1 from "../../Assets/farmhouseproject2.20.jpg";
+import Material2 from "../../Assets/farmhouseproject2.21.jpg";
+import Material3 from "../../Assets/farmhouseproject2.22.jpg";
+import Material4 from "../../Assets/farmhouseproject2.23.jpg";
+import Material5 from "../../Assets/farmhouseproject2.24.jpg";
+import Material6 from "../../Assets/farmhouseproject2.25.jpg";
+import ClientImage from "../../Assets/farmhouseproject2.26.png";
 
 import {
     FaCalendarAlt,
