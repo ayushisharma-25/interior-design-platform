@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./PageWrapper.css";
+import "./pageWrapper.css";
 
 export default function PageWrapper({ children }) {
   const [show, setShow] = useState(false);

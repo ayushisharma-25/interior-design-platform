@@ -3,7 +3,7 @@ import homeFlowerTableImage from "../Assets/flowertable1.png";
 import homeUserOneImage from "../Assets/user1.jpg";
 import homeUserTwoImage from "../Assets/user2.jpg";
 import homeUserThreeImage from "../Assets/user3.jpg";
-import homePlusIconImage from "../Assets/plus_sign.jpg";
+import homePlusIconImage from "../Assets/Plus_sign.jpg";
 import homeSideChairOneImage from "../Assets/sidechair1.jpg";
 import homeSideChairTwoImage from "../Assets/sidechair2.jpg";
 import homeSideChairThreeImage from "../Assets/sidechair3.jpg";
