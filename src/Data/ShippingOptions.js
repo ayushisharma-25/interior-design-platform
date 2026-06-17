@@ -1,4 +1,4 @@
-export const shippingOptions = [
+export const ShippingOptions = [
   {
     id: 1,
     method: "Standard Shipping",
