@@ -1,4 +1,5 @@
-import shippingOptions from "../Data/ShippingOptions";
+import shippingOptions from "../Data/shippingOptions";
+
 
 function ShippingSection({
   selectedShipping,
