@@ -5,13 +5,13 @@ import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 import ScrollToTop from "../Pages/ScrollToTop/ScrollToTop";
 import CartDrawer from "../Components/CartDrawer/CartDrawer";
-import PageWrapper from "../components/PageTransition/PageWrapper";
+import PageWrapper from "../Components/PageTransition/PageWrapper";
 import FloatingSocial from "../Pages/Floating/FloatingSocial";
 import Wishlist from "../Pages/Wishlist/Wishlist";
 import Toast from "../Components/Toast/Toast";
 import CouponToast from "../Components/CouponToast/CouponToast";
 import { ToastContainer } from "react-toastify";
-import AppRoutes from "../routes/AppRoutes";
+import AppRoutes from "../Routes/AppRoutes";
 
 function AppContent() {
 
