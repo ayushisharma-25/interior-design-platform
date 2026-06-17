@@ -1,5 +1,5 @@
 import { FaHotel } from "react-icons/fa";
-import "./farmhouse.css";
+import "./Farmhouse.css";
 import { useNavigate } from "react-router-dom";
 
 import HospitalityImg from "../../Assets/hospitality1.png";

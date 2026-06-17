@@ -1,6 +1,6 @@
 import { PiTreeEvergreenFill } from "react-icons/pi";
 import { useNavigate } from "react-router-dom";
-import "./farmhouse.css";
+import "./Farmhouse.css";
 
 import ApartmentImg from "../../Assets/apartment1.png";
 import apartmentImg2 from "../../Assets/apartment2.png";

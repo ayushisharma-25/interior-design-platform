@@ -1,5 +1,5 @@
 import { PiBuildingsFill } from "react-icons/pi";
-import './farmhouse.css'
+import './Farmhouse.css'
 import officeImg from '../../Assets/office1.png';
 import officeImg2 from "../../Assets/office2.png";
 import mainInterior from "../../Assets/office3.png";
